@@ -43,7 +43,7 @@ void draw() {
   }
 }
 ```
-Aquí se declaran varios métodos que nos ayudan a mantener el código limpio y ordenado, además de permitir que en un futuro, si se realizan cambios, no afecten a todo el código. Tenemos dos métodos: *initSystem()* y *drawSystem()*, estos, son los encargados de cargar las imágenes/texturas que se le aplicaran a las esferas, inicializar los objetos que conforman el sistema planetario y de llamar a los métodos nativos de las clases de los objetos *Planet*, *Moon* y *Star* que mostrará por pantalla las esféras, su movimiento alrededor de un punto central (en nuestro caso, al representar el Sistema Solar, es el Sol), y comprobará y reseteará el ángulo de giro de los planetas y lunas y/o satélites.
+Aquí se declaran varios métodos que nos ayudan a mantener el código limpio y ordenado, además de permitir que en un futuro, si se realizan cambios, no afecten a todo el código. Tenemos dos métodos: *initSystem()* y *drawSystem()*, estos, son los encargados de cargar las imágenes/texturas que se le aplicaran a las esferas, inicializar los objetos que conforman el sistema planetario y de llamar a los métodos nativos de las clases de los objetos *Planet*, *Moon* y *Star* que mostrará por pantalla las esferas, su movimiento alrededor de un punto central (en nuestro caso, al representar el Sistema Solar, es el Sol), y comprobará y reseteará el ángulo de giro de los planetas y lunas y/o satélites.
 ```java
 void initSystem() {
   sunImg = loadImage("Sun.jpg");
