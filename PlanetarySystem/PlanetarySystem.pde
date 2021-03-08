@@ -25,9 +25,7 @@ void draw() {
   else {
     background(bgImg);
     showHelp();
-    
     rotateX(radians(rotateX));
-    
     drawSystem();
     rotateSystem();
   }
