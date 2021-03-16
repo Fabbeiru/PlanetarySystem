@@ -125,7 +125,7 @@ void orbit(){
 Como se puede ver, cada objeto *Planet*, lleva asociado o no, otro objeto *Moon*, que en caso de disponer de uno, solo se mostrará por pantalla si existe el planeta al que está vinculado/relacionado, esto es, si un objeto *Planet* al inicializarlo se le indica un objeto *Moon*, el planeta será el encargado de llamar a los métodos *orbit()* y *display()* de la luna y/o satélite.
 
 ## Descarga y prueba
-Para poder probar correctamente el código, es necesario descargar todos los ficheros (el .zip del repositorio) y en la carpeta llamada PlanetarySystem se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (PlanetarySystem), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
+Para poder probar correctamente el código, descargar los ficheros (el .zip del repositorio) y en la carpeta llamada PlanetarySystem se encuentran los archivos de la aplicación listos para probar y ejecutar. El archivo "README.md" y aquellos fuera de la carpeta del proyecto (PlanetarySystem), son opcionales, si se descargan no deberían influir en el funcionamiento del código ya que, son usados para darle formato a la presentación y explicación del repositorio en la plataforma GitHub.
 
 ## Recursos empleados
 Para la realización de este sistema planetario en 3D, se han consultado y/o utilizado los siguientes recursos:
